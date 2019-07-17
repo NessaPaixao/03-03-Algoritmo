@@ -1,0 +1,67 @@
+Solicitar emprestimo
+
+Regras:
+
+* Idade entre 25 e 60 anos.
+* Salário a partir de 2000 reais.
+* Valor do emprestimo de até 10 vezes o salário.
+
+Dados:
+
+Idade = 25
+Salário = 2100
+Valor do emprestimo = 3500
+
+inicio do algoritmo
+
+1- Verificar a Idade.
+
+Se idade condizer com a idade solicitada
+    Perguntar salário.
+
+Se não 
+    Negar emprestimo.
+
+2- Verificar o salário.
+
+Se salário corresponder com valor minimo exigido
+    Perguntar o valor do emprestimo.
+
+Se não 
+    Negar emprestimo.    
+
+3- Verificar o valor do emprestimo.
+
+Se o valor do emprestimo condizer com valor maximo estipulado
+    Aprovar o emprestimo.
+
+Se não 
+    Negar emprestimo.
+
+fim do algoritmo    
+
+
+
+inicio do algoritmo
+
+1- Verificar a Idade.
+
+Se idade condizer com a idade solicitada
+    Perguntar salário.
+        Se salário corresponder com renda minima exigida
+             Perguntar o valor do emprestimo.
+                Se o valor do emprestimo condizer com valor maximo estipulado
+                    Aprovar o emprestimo.
+Se não 
+    Emprestimo reprovado pela idade
+        Se não 
+        Emprestimo reprovado pelo salário                    
+                Se não 
+                Emprestimo reprovado pelo valor do solicitado.
+
+fim do algoritmo
+
+
+
+
+
