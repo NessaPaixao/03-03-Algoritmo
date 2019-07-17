@@ -1,0 +1,44 @@
+CALCULAR A MÉDIA DE 3 NOTAS     
+
+Nota 1 = 6
+Nota 2 = 10
+Nota 3 = 8
+Nota 4 = 8
+Soma das notas = 32
+Média das notas = 8
+
+inicio do algoritmo
+
+Receber as NOTAS
+    Somar as notas
+        Dividir o resultado da soma por 3
+            Obter a média das notas
+Fim do algoritmo
+
+
+REGRAS
+A NOTA NÃO PODE SER MAIOR DO QUE 10
+DE O A 4 = REPROVADO
+DE 4.1 A 6.9 = RECUPERAÇÃO
+DE 7 A 10 = APROVADO
+
+    
+Inicio do algoritmo
+
+    Se media <=10
+
+        Se a média for >= a 7 e <= a 10 
+            Aluno aprovado
+
+        Se a média for >= 4.1 e <= 6.9
+        Aluno encaminhado para a recuperação
+
+        Se não  
+            Aluno reprovado
+
+    Se não    
+        Erro
+Fim do algoritmo
+
+
+
